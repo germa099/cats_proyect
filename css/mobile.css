@@ -1,0 +1,42 @@
+@media (max-width: 600px) {
+    nav {
+        display: inherit;
+    }
+    .opciones_navegacion {
+        font-size: 15px;
+    }
+    .main_section {
+        padding: 4%;
+    }
+    .products {
+        display: inherit;
+        height: auto;
+        padding: 5%;
+    }
+    .product {
+        margin-top: 83px;
+    }
+    .care {
+        margin-top: 25px;
+    }
+    .care_content {
+        padding: 5% 10%;
+    }
+    .care_content  img {
+        width: 150px;
+        height: 150px;
+    }
+    .a {
+        display: none;
+    }
+    .mentions_boxes {
+        display: inherit;
+    }
+    .boxes {
+        margin: 40px 60px;
+    }
+    .modulo_pago input {
+        outline: none;
+        outline-style: auto;
+    }
+}

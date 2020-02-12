@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800i&display=swap');
+
+
+/* Variables */
+:root {
+--color-1: rgb(66, 228, 128);
+--color-2: rgb(30, 110, 61);
+--blanco: white;
+--negro: rgb(26, 25, 25);
+--box:  7px 9px 9px #0000006b;
+
+}
+
+/* Variable */
+
+
+
+
+html,body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    /* background-color: rgb(66, 228, 128); */
+    background-image: linear-gradient(var(--color-1),var(--color-2) );
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.marca {
+    padding-bottom: 15px;
+}
+
+nav {
+    /* background-color: rgb(66, 228, 128); */
+    display: flex;
+    color: var(--blanco);
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    padding-right: 20px;
+    list-style: none;
+}
+
+nav li a {
+    color: var(--negro);
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: var(--blanco);
+}
+
+/* ------------------------ MAIN SECTION */
+
+
+.main_section {
+    padding: 15%;
+    text-align: center;
+    /* background-color: rgb(66, 228, 128); */
+    padding-top: 100px;
+}
+
+.products {
+    background-image: url("../imagenes/Rectangle\ 1.png");
+    height: 50px;
+    background-size: cover;
+    background-position: center top;
+    padding: 15%;
+    display: flex;
+}
+
+.product {
+    padding: 10px;
+    margin-top: -360px;
+}
+
+.product .content {
+    background-color: var(--blanco);
+    padding: 15px;
+    box-shadow: 7px 9px 9px #0000006b;
+    text-align: center;
+}
+
+
+.image_content img{
+    height: 150px;
+    width: 150px;
+}
+
+.image_content {
+    text-align: center;
+    margin-top: -100px;
+}
+
+.button {
+    border-radius: 15px;
+    background-color: rgb(201, 47, 47);
+    padding: 10px;
+    width: 100%;
+    color: var(--blanco);
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(39, 119, 52);
+    /* font-size: 200%; */
+    color: rgb(66, 228, 128);
+}
+
+/* PRODUCTOS */
+
+.cares {
+    display: flex;
+    /* margin-top: 40px; */
+}
+
+.care_content img {
+    height: 250px;
+    width: 250px;
+}
+
+/* .care {
+    padding: 20px;
+    color: var(--blanco);
+
+} */
+
+.care_content {
+    text-align: center;
+    padding: 100px;
+}
+
+/* AQUÍ TERMINA LA PARTE DE CUIDADOS */
+
+.mentions {
+    text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.205);
+}
+
+.mentions h1 {
+    margin-bottom: 80px;
+    font-size: 70px;
+}
+
+.mentions_boxes {
+    display: flex;
+}
+
+.boxes {
+    border-color: black;
+    border: 1px solid rgb(26, 25, 25);
+    background-color: var(--blanco);
+    margin: 20px;
+    box-shadow: 2px -1px 20px 0px black;
+}
+
+.boxes_content h2{
+    text-align: left;
+}
+
+.boxes_content {
+    text-align: justify;
+    padding: 10px;
+}
+
+.boxes_image img {
+    height: 250px;
+    width: 100%;
+}
+
+/* --------------------------------------------PRODUCTOS */
+
+.title {
+    margin: 4% 10%;
+}
+.title h1 {
+    font-size: 3em;
+}
+
+.col-4 img {
+    width: 250px;
+    height: 250px;
+}
+
+/* --------------------------------------------VENTAS */
+
+.container{
+    margin: 15%;
+}
+
+.modulo_pago {
+    background-color: var(--blanco);
+    box-shadow: var(--box);
+    padding: 10px;
+}
+
+.modulo_pago img {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    display: block;
+}
+
+form {
+    font-size: 20px;
+}
+
+/* label {
+    padding-bottom: 5px;
+} */
+
+form input {
+    width: 100%;
+    margin: 2px;
+    border-radius: 7px;
+    border-style: ridge;
+    box-sizing: border-box;
+    /* outline: none; */
+}
+
+.modulo_pago .button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--color-1);
+    border: none;
+    margin-top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(17, 17, 17);
+
+}
+
+.modulo_pago .button:hover {
+    background-color: rgb(53, 187, 105);
+    
+}
+
+/* --------------------------------------------FOOTER */
+
+
+footer {
+    background-color: rgb(97, 89, 89);
+    color: var(--blanco);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    padding: 5px 20px;
+    margin-top: 50px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: white;
+}

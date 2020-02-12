@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.fallo_box_content {
+    background-color: whitesmoke;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.exito_box img{
+    width: 450px;
+    height: 450px;
+}
+
+.exito_box_content {
+    background-color: whitesmoke;
+    padding: 30px;
+    margin-top: -107px;
+    border: 2px solid black;
+}
+
+

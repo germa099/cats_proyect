@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <title>VENTAS</title>
+</head>
+<body>
+    <nav>
+        <div class="logo_image fadeInSide">
+            <a href="index.html"><img class="logo" src="imagenes/cat-9138.png" alt=""></a>
+            <a href="index.html"><img class="marca" src="imagenes/MELI’S CATS.png" alt=""></a>
+        </div>
+        <div class="opciones_navegacion">
+            <ul>
+                <li>
+                    <a href="#">FAQs</a>
+                </li>
+                <li>
+                    <a href="producto.html">Producto y Descripción </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="grid_container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="modulo_pago">
+                        <img src="imagenes/cat-9138.png" alt="">
+                        <h3>Producto 1</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum consequatur eligendi aliquid.</p>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="modulo_pago">
+                        <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CJ8D8HDPETD7U" method="POST">
+                            <label for="nombre">Nombre:</label> <br>
+                            <input type="text" name="user_name" id="nombre" placeholder=""> <br>
+                            <input type="hidden" name="first_name" id="nombre" value="john">
+                            <label for="mail">E-Mail:</label> <br>
+                            <input type="text" name="user_mail" id="mail" placeholder=""> <br>
+                            <input type="hidden" name="email" id="mail" value="jdoe@zyzzyu.com">
+                            <label for="telefono">Teléfono:</label> <br>
+                            <input type="number" name="user_phone" id="telefono" placeholder=""> <br>
+                            <input type="hidden" name="night_phone_a" id="telefono" value="610">
+                            <input type="submit" class="button" name="submit" placeholder="Confirmar Compra" value="Confirmar Compra">
+                            <!-- <button type="submit">Confirmar Pago</button> -->
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Términos y condiciones</p>
+        <p>contacto@gmail.com</p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
